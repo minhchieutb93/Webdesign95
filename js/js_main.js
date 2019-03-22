@@ -1,12 +1,12 @@
-// $(window).bind('scroll', function () {
-//     if ($(window).scrollTop() > 67) {
-//         $('.logo').addClass('sticky');
-//         $('.menu_bar_mobile').addClass('sticky2');
-//     } else {
-//         $('.logo').removeClass('sticky');
-//         $('.menu_bar_mobile').removeClass('sticky2');
-//     }
-// });
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 80) {
+        $('.wrap_head').addClass('sticky');
+        
+    } else {
+        $('.wrap_head').removeClass('sticky');
+       
+    }
+});
 // $(document).ready(function(){
 
 //    $("#commnet").click(function(){
