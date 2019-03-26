@@ -226,7 +226,7 @@ ul {
 	margin-top: 30px;
 	display: grid;
   	grid-template-columns: 50% 50%;
-  	grid-gap: 50px 10px;
+  	grid-gap: 30px 10px;
   	text-align: center;
     font-weight: 700;
     color: #e94528;
@@ -235,7 +235,8 @@ ul {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35px;
+    width: 40px;
+    margin-bottom: 5px;
 }
 .contact_icon  .contact-text{
 	font-size: 15px;
@@ -304,6 +305,7 @@ ul {
     margin: 30px auto 10px auto;
     text-align: center;
     font-size: 30px;
+    color: #e94528;
 }
 .why_choose .number-group {
     display: block;
@@ -1184,7 +1186,7 @@ ul {
     box-shadow: 0 0 1px transparent;
 }
 .wrap_contact{
-	background: #e8e9eb url(../images/bgmodal.jpg) center center no-repeat;
+	background: #e8e9eb url(../images/TUN05666.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
     padding: 40px 0;
@@ -1198,9 +1200,14 @@ ul {
 	font-size: 15px;
     padding-top: 40px;
     color: #666;
+    background: rgba(255,255,255,0.8);
+    padding: 40px;
+    border-radius: 5px;
 }
 .wrap_contact .logo{
-	width: 200px;
+	width: 100px;
+    float: left;
+    padding: 0 30px 30px 0;
 }
 .wrap_contact h2{
 	font-size: 18px;
@@ -1208,6 +1215,8 @@ ul {
     margin-bottom: 20px;
     text-transform: uppercase;
     margin-top: 10	px;
+    width: 300px;
+    float: left;
 }
 .wrap_contact .info-email {
     background: url(../images/mail.png) left top no-repeat;
